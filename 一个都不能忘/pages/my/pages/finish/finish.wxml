@@ -1,0 +1,18 @@
+<view class="content">
+  <text class="count">{{count}}</text>
+  <text>已完成任务数</text>
+</view>
+<view><text>\n</text>
+  <button bindtap="switchModal">
+    清空
+  </button>
+</view>
+<modal 
+		title="提示" 
+		confirm-text="确定" 
+		cancel-text="取消" 
+		hidden="{{modalHidden}}" 
+		bindconfirm="clearLog" 
+		bindcancel="switchModal">
+	      是否清除？此操作不可恢复!
+	</modal>

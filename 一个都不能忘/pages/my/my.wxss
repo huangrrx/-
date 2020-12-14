@@ -1,0 +1,67 @@
+.header{
+  background:	#ADD8E6;
+  height: 350rpx;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 40rpx;
+}
+.header image{
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 200rpx;
+}
+.header .nickname{
+  color: white;
+  font-size: 36rpx;
+  padding-top: 20rpx;
+}
+.menu{
+  background-color: white;
+}
+.menu-section{
+  flex-direction: row;
+  align-items: center;
+  padding: 30rpx;
+  display: flex;
+}
+.menu-section-hover{
+  background-color: #bdbfc1;
+}
+.menu-section image{
+  height: 45rpx;
+  width: 45rpx;
+}
+.menu-section text{
+  margin-left: 30rpx;
+  font-size: 34rpx;
+}
+.help{
+  margin-top: 30rpx;
+}
+.version{
+  margin-top: 40rpx;
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+}
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 40px;
+}

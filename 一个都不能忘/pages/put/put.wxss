@@ -1,0 +1,52 @@
+button {
+  position:relative;
+  display:block;
+  margin-left:10rpx;
+  margin-right:10rpx;
+  padding-left:14rpx;
+  padding-right:14rpx;
+  box-sizing:border-box;
+  font-size:50rpx;
+  text-align:center;
+  text-decoration:none;
+  line-height:120rpx;
+  border-radius:5rpx;
+  -webkit-tap-highlight-color:transparent;
+  overflow:hidden;
+  color:#2c393d;
+  background-color:	#e2f5f8;
+}
+
+.task-card{
+  background-color: white;
+  width: 80%;
+  margin: 50rpx auto;
+  height: auto;
+  padding: 25rpx 30rpx 30rpx 30rpx;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 35rpx;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx;
+  height: 80rpx;
+  justify-content:space-between;
+}
+.laber{
+  line-height: 80rpx;
+  width: auto;
+}
+.value{
+  line-height: 80rpx;
+  width: auto;
+}
+.input{
+  width: 40%;
+  padding: 20rpx 0;
+  text-align: right;
+  
+}
+

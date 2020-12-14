@@ -1,0 +1,30 @@
+.content{
+    margin-top: 300rpx;
+    text-align: center;
+    color: gray;
+    font-size: 30rpx;
+    display: flex;
+    flex-direction: column;
+}
+.count{
+    color: rgb(136, 181, 199);
+    font-size: 200rpx;
+}
+button {
+    position:relative;
+    display:block;
+    margin-left:100rpx;
+    margin-right:100rpx;
+    padding-left:14rpx;
+    padding-right:14rpx;
+    box-sizing:border-box;
+    font-size:50rpx;
+    text-align:center;
+    text-decoration:none;
+    line-height:120rpx;
+    border-radius:5rpx;
+    -webkit-tap-highlight-color:transparent;
+    overflow:hidden;
+    color:#527074;
+    background-color:	#dbeff5;
+  }
