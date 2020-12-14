@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/input/input",
+    "pages/my/my",  
+    "pages/calendar/calendar",  
+    "pages/index/index", 
+    "pages/put/put",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ADD8E6",
+    "navigationBarTitleText": "一个都不能忘",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath":"pages/input/input",
+      "text": "添加任务",
+      "iconPath": "icon/input1.png",
+      "selectedIconPath": "icon/input2.png"
+    },
+    {
+      "pagePath":"pages/calendar/calendar",
+      "text": "日历",
+      "iconPath": "icon/calendar1.png",
+      "selectedIconPath": "icon/calendar2.png"
+    },
+    {
+      "pagePath":"pages/my/my",
+      "text": "我的",
+      "iconPath": "icon/my1.png",
+      "selectedIconPath": "icon/my2.png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
