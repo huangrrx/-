@@ -4,8 +4,7 @@
     "pages/my/my",  
     "pages/calendar/calendar",  
     "pages/index/index", 
-    "pages/put/put",
-    "pages/logs/logs"
+    "pages/put/put"
   ],
   "window": {
     "backgroundTextStyle": "light",
